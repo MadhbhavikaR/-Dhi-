@@ -1,0 +1,48 @@
+{
+   "manifest_version": 2,
+   "background": {
+      "scripts": [ "content/bowser.js", "lib/browser-polyfill.js", "background/background.js", "background/enhancements.js", "chrome_variables_init.js", "lib/constants.js", "lib/chrome_variables_default.js", "chrome_variables_init.js", "lib/chrome_common.js", "lib/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "icons/branding_16.png",
+      "default_title": "Dhi AI"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "lib/browser-polyfill.js", "content/prompt-injecter.js", "content/runScript-injecter.js" ],
+      "match_about_blank": true,
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_start"
+   }, {
+      "all_frames": true,
+      "js": [ "content/bowser.js", "content/atoms.js", "content/utils.js", "content/selenium-commandhandlers.js", "content/selenium-browserbot.js", "lib/escape.js", "content/selenium-api.js", "content/neighbor-xpaths-generator.min.js", "content/locatorBuilders.js", "content/recorder.js", "content/recorder-handlers.js", "content/command-receiver.js", "content/targetSelecter.js", "content/sizzle.js", "content/kar.js" ],
+      "match_about_blank": true,
+      "matches": [ "\u003Call_urls>" ]
+   }, {
+      "all_frames": true,
+      "js": [ "lib/bowser.js", "lib/jquery-3.2.1.min.js", "lib/jquery.color.js", "lib/neighbor-xpaths-generator.min.js", "lib/constants.js", "lib/chrome_common.js", "lib/chrome_variables_default.js", "chrome_variables_init.js", "lib/ku-locatorBuilders.js", "lib/common.js", "lib/record_common.js", "lib/chrome_setup.js", "lib/dom_inspector.js", "lib/dom_collector.js", "lib/ku-recorder.js", "lib/ku-recorder-handlers.js", "lib/dom_recorder.js", "lib/process_element.js", "lib/main.js" ],
+      "match_about_blank": true,
+      "matches": [ "\u003Call_urls>" ]
+   }, {
+      "all_frames": true,
+      "js": [ "content/jquery.simulate.js" ],
+      "match_about_blank": true,
+      "matches": [ "\u003Call_urls>" ]
+   } ],
+   //   "content_security_policy": "script-src 'self' 'unsafe-eval' https://ssl.google-analytics.com; object-src 'self'",
+   "description": "Dhi (धी) AI, is a Front end for automating your test cases, this extension when integrated with the AI powered backend, Achieves complete automation of your Testing needs",
+//   "homepage_url": "https://www.xyz.com/",
+   "icons": {
+      "128": "icons/branding_128.png",
+      "16": "icons/branding_16.png",
+      "48": "icons/branding_48.png"
+   },
+
+   "name": "Dhi (धी) AI",
+   "offline_enabled": true,
+   "options_page": "lib/options.html",
+   "permissions": [ "tabs", "activeTab", "webRequest", "contextMenus", "downloads", "webNavigation", "notifications", "http://*/", "https://*/", "storage", "unlimitedStorage", "\u003Call_urls>", "debugger" ],
+//   "update_url": "https://xyz",
+   "version": "0.0.2",
+   "web_accessible_resources": [ "lib/prompt.js", "lib/runScript.js" ]
+}

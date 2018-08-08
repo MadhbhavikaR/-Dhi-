@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a4f0e402-8382-4597-bf8a-2aeab8f98e5e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NOTICE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/background/background.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/background/enhancements.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chrome_variables_init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/atoms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/bowser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/command-receiver.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/jquery.simulate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/kar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/locatorBuilders.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/neighbor-xpaths-generator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/neighbor-xpaths-generator.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/prompt-injecter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/recorder-handlers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/recorder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/runScript-injecter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/selenium-api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/selenium-browserbot.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/selenium-commandhandlers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/sizzle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/targetSelecter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/QA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/SVG/add-icon-hover.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/SVG/add-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/SVG/advanced-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/SVG/breakpoint.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/SVG/close-icon-hover.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/SVG/close-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/SVG/community-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/SVG/copy-icon-hover.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/SVG/copy-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/SVG/delete-icon-hover.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/SVG/delete-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/SVG/drap-drop-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/SVG/edit-icon-hover.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/SVG/edit-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/SVG/export-icon-16.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/SVG/export-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/SVG/fail.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/SVG/find-icon-hover.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/SVG/find-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/SVG/help-icon-16.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/SVG/help-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/SVG/ic_keyboard_arrow_down_black_18px.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/SVG/ic_keyboard_arrow_up_black_18px.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/SVG/more-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/SVG/new-icon-16.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/SVG/new-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/SVG/open-icon-hover.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/SVG/open-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/SVG/pass.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/SVG/paste-icon-hover.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/SVG/paste-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/SVG/pause-icon-16.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/SVG/pause-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/SVG/play-all-icon-16.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/SVG/play-icon-16.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/SVG/play-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/SVG/play-suite-icon-16.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/SVG/record-icon-16.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/SVG/record-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/SVG/resume-icon-16.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/SVG/resume-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/SVG/save-icon-hover.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/SVG/save-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/SVG/select-icon-hover.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/SVG/select-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/SVG/setting-icon-16.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/SVG/setting-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/SVG/speed-icon-16.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/SVG/stop-icon-16.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/SVG/stop-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/SVG/upload-icon-hover.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/SVG/upload-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/SVG/user-manual-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/SVG/videos-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/SVG/web-icon-16.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/SVG/web-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/branding_128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/branding_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/branding_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/branding_48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/branding_64.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/help.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/icons-48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/icons-96.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/icons-96_whitebord.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/object_spy_24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/options.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/port-setting.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/record_28.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/record_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/sideex1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/sideex2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/sideex3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/url_record.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/background.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/bowser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/browser-polyfill.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/chrome_common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/chrome_setup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/chrome_variables_default.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dom_collector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dom_inspector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dom_recorder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/escape.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jquery-1.11.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jquery-3.2.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jquery.color.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/ku-locatorBuilders.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/ku-recorder-handlers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/ku-recorder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/manifest.json.bk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/neighbor-xpaths-generator.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/options.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/options.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/process_element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/prompt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/record_common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/runScript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manifest.json.bak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/css/ie.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/css/jquery-ui-slider-pips.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/css/jquery-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/css/kar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/css/layout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/css/options.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/images/breadcrumb_divider.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/images/btn_submit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/images/btn_submit_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/images/btn_view_site.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/images/header_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/images/header_shadow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/images/icn_add_user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/images/icn_alert_error.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/images/icn_alert_info.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/images/icn_alert_success.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/images/icn_alert_warning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/images/icn_audio.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/images/icn_categories.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/images/icn_edit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/images/icn_edit_article.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/images/icn_folder.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/images/icn_jump_back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/images/icn_logout.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/images/icn_new_article.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/images/icn_photo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/images/icn_profile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/images/icn_search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/images/icn_security.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/images/icn_settings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/images/icn_tags.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/images/icn_trash.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/images/icn_user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/images/icn_video.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/images/icn_view_users.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/images/module_footer_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/images/post_message.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/images/secondary_bar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/images/secondary_bar_shadow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/images/sidebar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/images/sidebar_divider.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/images/sidebar_shadow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/images/table_sorter_header.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/js/IO/inputFileTransformer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/js/IO/load_file.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/js/IO/save_file.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/js/UI/command_grid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/js/UI/command_grid_toolbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/js/UI/context_menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/js/UI/hideshow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/js/UI/log.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/js/UI/options.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/js/UI/panelSetting.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/js/UI/sortable-ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/js/UI/testcase_grid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/js/background/doc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/js/background/editor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/js/background/formatCommand.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/js/background/initial.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/js/background/playback.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/js/background/recorder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/js/background/window-controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/js/katalon/bowser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/js/katalon/codemirror-5.31.0/lib/codemirror.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/js/katalon/codemirror-5.31.0/lib/codemirror.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/js/katalon/codemirror-5.31.0/mode/clike/clike.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/js/katalon/codemirror-5.31.0/mode/groovy/groovy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/js/katalon/codemirror-5.31.0/mode/php/php.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/js/katalon/codemirror-5.31.0/mode/python/python.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/js/katalon/codemirror-5.31.0/mode/ruby/ruby.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/js/katalon/codemirror-5.31.0/mode/xml/xml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/js/katalon/kar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/js/katalon/papaparse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/js/katalon/selenium-ide/format/csharp/cs-mstest-wd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/js/katalon/selenium-ide/format/csharp/cs-rc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/js/katalon/selenium-ide/format/csharp/cs-wd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/js/katalon/selenium-ide/format/java/java-backed-junit4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/js/katalon/selenium-ide/format/java/java-rc-junit4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/js/katalon/selenium-ide/format/java/java-rc-testng.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/js/katalon/selenium-ide/format/java/java-rc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/js/katalon/selenium-ide/format/java/webdriver-junit4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/js/katalon/selenium-ide/format/java/webdriver-testng.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/js/katalon/selenium-ide/format/katalon/katalon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/js/katalon/selenium-ide/format/python/python-appdynamics.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/js/katalon/selenium-ide/format/python/python2-rc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/js/katalon/selenium-ide/format/python/python2-wd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/js/katalon/selenium-ide/format/robot/robot.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/js/katalon/selenium-ide/format/ruby/ruby-rc-rspec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/js/katalon/selenium-ide/format/ruby/ruby-rc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/js/katalon/selenium-ide/format/ruby/ruby-wd-rspec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/js/katalon/selenium-ide/format/ruby/ruby-wd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/js/katalon/selenium-ide/format/xml/XML-formatter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/js/katalon/selenium-ide/formatCommandOnlyAdapter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/js/katalon/selenium-ide/iedoc-core.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/js/katalon/selenium-ide/remoteControl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/js/katalon/selenium-ide/testCase.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/js/katalon/selenium-ide/webdriver.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/js/lib/colResizable-1.5.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/js/lib/jquery-ui-slider-pips.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/js/lib/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/js/lib/jquery.equalHeight.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/js/lib/jquery.tablesorter.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/js/lib/jquery.tabletab.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panel/js/lib/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assets/128X128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assets/64X64.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assets/DHI.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assets/android-icon-144x144.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assets/android-icon-192x192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assets/android-icon-36x36.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assets/android-icon-48x48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assets/android-icon-72x72.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assets/android-icon-96x96.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assets/apple-icon-114x114.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assets/apple-icon-120x120.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assets/apple-icon-144x144.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assets/apple-icon-152x152.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assets/apple-icon-180x180.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assets/apple-icon-57x57.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assets/apple-icon-60x60.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assets/apple-icon-72x72.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assets/apple-icon-76x76.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assets/apple-icon-precomposed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assets/apple-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assets/browserconfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assets/dhi_104x104.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assets/dhi_112x112.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assets/dhi_120x120.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assets/dhi_128x128.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assets/dhi_136x136.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assets/dhi_144x144.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assets/dhi_152x152.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assets/dhi_160x160.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assets/dhi_168x168.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assets/dhi_16x16.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assets/dhi_176x176.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assets/dhi_184x184.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assets/dhi_192x192.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assets/dhi_200x200.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assets/dhi_208x208.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assets/dhi_216x216.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assets/dhi_224x224.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assets/dhi_232x232.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assets/dhi_240x240.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assets/dhi_248x248.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assets/dhi_24x24.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assets/dhi_256x256.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assets/dhi_32x32.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assets/dhi_40x40.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assets/dhi_48x48.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assets/dhi_56x56.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assets/dhi_64x64.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assets/dhi_72x72.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assets/dhi_80x80.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assets/dhi_88x88.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assets/dhi_96x96.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assets/dhi_X8f_icon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assets/favicon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assets/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assets/favicon-96x96.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assets/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assets/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assets/ms-icon-144x144.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assets/ms-icon-150x150.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assets/ms-icon-310x310.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assets/ms-icon-70x70.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chrome/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/panel/js/katalon/command-reference.js" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1476126414">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="NOTICE" value="1" />
+          <entry key="js" value="6" />
+          <entry key="json" value="3" />
+          <entry key="md" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JSON" value="3" />
+          <entry key="JavaScript" value="6" />
+          <entry key="Markdown" value="1" />
+          <entry key="PLAIN_TEXT" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="5" />
+          <entry key="json" value="348" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="5" />
+          <entry key="JSON" value="348" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>katalon/images</find>
+      <find>katalon/</find>
+      <find>page/</find>
+      <find>common/</find>
+      <find>kar</find>
+      <find>Katalon Recorder</find>
+      <find>update</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/manifest.json" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="260" />
+    <option name="y" value="55" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="addons" type="b2602c69:ProjectViewProjectNode" />
+              <item name="addons" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="addons" type="b2602c69:ProjectViewProjectNode" />
+              <item name="addons" type="462c0819:PsiDirectoryNode" />
+              <item name="background" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="addons" type="b2602c69:ProjectViewProjectNode" />
+              <item name="addons" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="addons" type="b2602c69:ProjectViewProjectNode" />
+              <item name="addons" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+              <item name="neighbor-xpaths-generator.js" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="addons" type="b2602c69:ProjectViewProjectNode" />
+              <item name="addons" type="462c0819:PsiDirectoryNode" />
+              <item name="icons" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="addons" type="b2602c69:ProjectViewProjectNode" />
+              <item name="addons" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="addons" type="b2602c69:ProjectViewProjectNode" />
+              <item name="addons" type="462c0819:PsiDirectoryNode" />
+              <item name="panel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="addons" type="b2602c69:ProjectViewProjectNode" />
+              <item name="addons" type="462c0819:PsiDirectoryNode" />
+              <item name="panel" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="addons" type="b2602c69:ProjectViewProjectNode" />
+              <item name="addons" type="462c0819:PsiDirectoryNode" />
+              <item name="panel" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="background" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="addons" type="b2602c69:ProjectViewProjectNode" />
+              <item name="addons" type="462c0819:PsiDirectoryNode" />
+              <item name="panel" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="katalon" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="addons" type="b2602c69:ProjectViewProjectNode" />
+              <item name="addons" type="462c0819:PsiDirectoryNode" />
+              <item name="panel" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="M:\Projects\Testing_Framework\-Dhi-\addons\lib" />
+      <recent name="M:\Projects\Testing_Framework\-Dhi-\addons\icons" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a4f0e402-8382-4597-bf8a-2aeab8f98e5e" name="Default Changelist" comment="" />
+      <created>1533736118094</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1533736118094</updated>
+      <workItem from="1533736121539" duration="1129000" />
+      <workItem from="1533737346710" duration="1172000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2301000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32939914" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24973656" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.32939914" />
+      <window_info anchor="bottom" id="Run" order="6" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/dom_inspector.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="81" column="29" selection-start-line="81" selection-start-column="29" selection-end-line="81" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="198" column="30" selection-start-line="198" selection-start-column="30" selection-end-line="198" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/background/enhancements.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="17" column="36" lean-forward="true" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/prompt.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-476">
+          <caret line="13" column="34" lean-forward="true" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/panel/js/katalon/kar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="1158" column="25" lean-forward="true" selection-start-line="1158" selection-start-column="25" selection-end-line="1158" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="93" selection-start-line="11" selection-start-column="93" selection-end-line="12" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NOTICE">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
