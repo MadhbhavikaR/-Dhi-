@@ -1,0 +1,22 @@
+<html>
+<head></head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+		alert(document.getElementById("destDirName").value);
+		alert(document.getElementById("sourceDirName").value);
+        $.ajax({url: "http://localhost:3000/save",type: 'POST',
+		data: { 'test': 'test' , 'sourceDirName' : document.getElementById("sourceDirName").value,'destDirName':document.getElementById("destDirName").value} ,
+         success: function(res){
+            alert("hello");
+        }});
+    });
+});
+</script>
+<body>
+	<input type="text" id="sourceDirName" placeholder="sourceDirName">
+	<input type="text" id="destDirName" placeholder="destDirName">
+	<button>Save it</button>
+</body>
+</html>
