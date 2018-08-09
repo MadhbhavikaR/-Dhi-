@@ -2,92 +2,83 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4f0e402-8382-4597-bf8a-2aeab8f98e5e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/images/png/128X128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/png/16X16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/png/32X32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/png/48X48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/png/64X64.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/neighbor-xpaths-generator.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/selenium-api.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/selenium-api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/QA.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/SVG/add-icon-hover.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/svg/add-icon-hover.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/SVG/add-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/svg/add-icon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/SVG/advanced-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/svg/advanced-icon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/SVG/breakpoint.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/svg/breakpoint.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/SVG/close-icon-hover.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/svg/close-icon-hover.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/SVG/close-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/svg/close-icon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/SVG/community-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/svg/community-icon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/SVG/copy-icon-hover.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/svg/copy-icon-hover.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/SVG/copy-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/svg/copy-icon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/SVG/delete-icon-hover.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/svg/delete-icon-hover.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/SVG/delete-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/svg/delete-icon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/SVG/drap-drop-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/svg/drap-drop-icon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/SVG/edit-icon-hover.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/svg/edit-icon-hover.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/SVG/edit-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/svg/edit-icon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/SVG/export-icon-16.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/svg/export-icon-16.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/SVG/export-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/svg/export-icon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/SVG/fail.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/svg/fail.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/SVG/find-icon-hover.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/svg/find-icon-hover.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/SVG/find-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/svg/find-icon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/SVG/help-icon-16.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/svg/help-icon-16.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/SVG/help-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/svg/help-icon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/SVG/ic_keyboard_arrow_down_black_18px.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/svg/ic_keyboard_arrow_down_black_18px.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/SVG/ic_keyboard_arrow_up_black_18px.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/svg/ic_keyboard_arrow_up_black_18px.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/SVG/more-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/svg/more-icon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/SVG/new-icon-16.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/svg/new-icon-16.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/SVG/new-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/svg/new-icon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/SVG/open-icon-hover.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/svg/open-icon-hover.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/SVG/open-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/svg/open-icon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/SVG/pass.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/svg/pass.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/SVG/paste-icon-hover.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/svg/paste-icon-hover.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/SVG/paste-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/svg/paste-icon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/SVG/pause-icon-16.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/svg/pause-icon-16.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/SVG/pause-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/svg/pause-icon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/SVG/play-all-icon-16.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/svg/play-all-icon-16.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/SVG/play-icon-16.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/svg/play-icon-16.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/SVG/play-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/svg/play-icon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/SVG/play-suite-icon-16.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/svg/play-suite-icon-16.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/SVG/record-icon-16.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/svg/record-icon-16.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/SVG/record-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/svg/record-icon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/SVG/resume-icon-16.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/svg/resume-icon-16.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/SVG/resume-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/svg/resume-icon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/SVG/save-icon-hover.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/svg/save-icon-hover.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/SVG/save-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/svg/save-icon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/SVG/select-icon-hover.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/svg/select-icon-hover.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/SVG/select-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/svg/select-icon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/SVG/setting-icon-16.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/svg/setting-icon-16.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/SVG/setting-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/svg/setting-icon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/SVG/speed-icon-16.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/svg/speed-icon-16.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/SVG/stop-icon-16.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/svg/stop-icon-16.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/SVG/stop-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/svg/stop-icon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/SVG/upload-icon-hover.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/svg/upload-icon-hover.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/SVG/upload-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/svg/upload-icon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/SVG/user-manual-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/svg/user-manual-icon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/SVG/videos-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/svg/videos-icon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/SVG/web-icon-16.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/svg/web-icon-16.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/SVG/web-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/svg/web-icon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/branding_128.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/png/branding_128.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/branding_16.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/png/branding_16.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/branding_32.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/png/branding_32.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/branding_48.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/png/branding_48.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/branding_64.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/png/branding_64.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/help.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/png/help.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/icons-48.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/icons-96.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/icons-96_whitebord.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/png/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/object_spy_24.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/options.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/png/options.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/port-setting.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/record_28.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/record_button.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/sideex1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/sideex2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/sideex3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/url_record.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/neighbor-xpaths-generator.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/options.html" beforeDir="false" afterPath="$PROJECT_DIR$/lib/options.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/png/branding_128.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/png/branding_16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/png/branding_32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/png/branding_48.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/png/branding_64.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/manifest.json.bk" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/panel/css/kar.css" beforeDir="false" afterPath="$PROJECT_DIR$/panel/css/kar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/panel/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/panel/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manifest.json.bak" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/panel/js/background/editor.js" beforeDir="false" afterPath="$PROJECT_DIR$/panel/js/background/editor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/panel/js/katalon/kar.js" beforeDir="false" afterPath="$PROJECT_DIR$/panel/js/katalon/kar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/128X128.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/64X64.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/DHI.png" beforeDir="false" afterPath="$PROJECT_DIR$/../assets/DHI.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/android-icon-144x144.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/android-icon-192x192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/android-icon-36x36.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/android-icon-48x48.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/android-icon-72x72.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/android-icon-96x96.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/apple-icon-114x114.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/apple-icon-120x120.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/apple-icon-144x144.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/apple-icon-152x152.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/apple-icon-180x180.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/apple-icon-57x57.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/apple-icon-60x60.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/apple-icon-72x72.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/apple-icon-76x76.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/apple-icon-precomposed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/apple-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/browserconfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/dhi_104x104.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/dhi_112x112.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/dhi_120x120.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/dhi_128x128.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/dhi_136x136.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/dhi_144x144.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/dhi_152x152.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/dhi_160x160.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/dhi_168x168.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/dhi_16x16.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/dhi_176x176.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/dhi_184x184.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/dhi_192x192.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/dhi_200x200.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/dhi_208x208.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/dhi_216x216.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/dhi_224x224.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/dhi_232x232.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/dhi_240x240.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/dhi_248x248.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/dhi_24x24.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/dhi_256x256.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/dhi_32x32.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/dhi_40x40.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/dhi_48x48.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/dhi_56x56.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/dhi_64x64.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/dhi_72x72.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/dhi_80x80.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/dhi_88x88.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/dhi_96x96.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/dhi_X8f_icon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/favicon-16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/favicon-32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/favicon-96x96.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/ms-icon-144x144.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/ms-icon-150x150.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/ms-icon-310x310.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/ms-icon-70x70.png" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -106,8 +97,8 @@
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.open.time.9" value="3" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -115,44 +106,58 @@
           <entry key="NOTICE" value="1" />
           <entry key="bk" value="1" />
           <entry key="css" value="1" />
-          <entry key="html" value="4" />
+          <entry key="html" value="5" />
           <entry key="js" value="11" />
-          <entry key="json" value="6" />
+          <entry key="json" value="8" />
           <entry key="md" value="1" />
-          <entry key="png" value="4" />
+          <entry key="png" value="6" />
+          <entry key="svg" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="1" />
-          <entry key="HTML" value="4" />
-          <entry key="Image" value="4" />
-          <entry key="JSON" value="6" />
+          <entry key="HTML" value="5" />
+          <entry key="Image" value="6" />
+          <entry key="JSON" value="8" />
           <entry key="JavaScript" value="11" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="2" />
+          <entry key="SVG" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="bk" value="5" />
           <entry key="css" value="10" />
           <entry key="html" value="117" />
-          <entry key="js" value="40" />
-          <entry key="json" value="373" />
+          <entry key="js" value="43" />
+          <entry key="json" value="415" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="10" />
           <entry key="HTML" value="117" />
-          <entry key="JSON" value="373" />
-          <entry key="JavaScript" value="40" />
+          <entry key="JSON" value="415" />
+          <entry key="JavaScript" value="43" />
+          <entry key="PLAIN_TEXT" value="5" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/manifest.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -181,6 +186,9 @@
       <find>QA.png</find>
       <find>record_28</find>
       <find>record_button</find>
+      <find>advan</find>
+      <find>branding_128.png</find>
+      <find>16X16</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -216,7 +224,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -265,6 +272,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -275,6 +283,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="M:\Projects\Testing_Framework\-Dhi-\addons\images\png" />
       <recent name="M:\Projects\Testing_Framework\-Dhi-\addons\icons\png" />
       <recent name="M:\Projects\Testing_Framework\-Dhi-\addons\lib" />
       <recent name="M:\Projects\Testing_Framework\-Dhi-\addons\icons" />
@@ -307,15 +316,17 @@
       <workItem from="1533789209463" duration="1025000" />
       <workItem from="1533790362605" duration="753000" />
       <workItem from="1533791581012" duration="317000" />
-      <workItem from="1533792116976" duration="352000" />
+      <workItem from="1533792116976" duration="671000" />
+      <workItem from="1533793759792" duration="1782000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4748000" />
+    <option name="totallyTimeSpent" value="6849000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -442,16 +453,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manifest.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-          <caret line="35" column="25" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
-          <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
-          <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/manifest.json.bk">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -459,24 +460,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/images/png/icons-48.png" />
+    <entry file="file://$PROJECT_DIR$/images/png/record_28.png" />
+    <entry file="file://$PROJECT_DIR$/images/png/sideex1.png" />
+    <entry file="file://$PROJECT_DIR$/images/png/QA.png" />
+    <entry file="file://$PROJECT_DIR$/images/svg/breakpoint.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/png/help.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/png/logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/panel/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
+        <state relative-caret-position="969">
           <caret line="74" column="39" selection-start-line="74" selection-start-column="39" selection-end-line="74" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/png/icons-48.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/png/record_28.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/png/sideex1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/png/QA.png">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

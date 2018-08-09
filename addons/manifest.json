@@ -1,10 +1,22 @@
 {
    "manifest_version": 2,
+   "name": "Dhi (धी) UI",
+   "description": "Dhi (धी) UI, is a Front end for automating your test cases, this extension when integrated with the AI powered backend, Achieves complete automation of your Testing needs",
+   "version": "0.0.2",
+   "homepage_url": "https://www.xyz.com/",
+   "icons": {
+      "128": "images/png/128X128.png",
+      "16": "images/png/16X16.png",
+      "48": "images/png/48X48.png"
+   },
+
+   //   "update_url": "https://xyz",
+   "offline_enabled": true,
    "background": {
       "scripts": [ "content/bowser.js", "lib/browser-polyfill.js", "background/background.js", "background/enhancements.js", "chrome_variables_init.js", "lib/constants.js", "lib/chrome_variables_default.js", "chrome_variables_init.js", "lib/chrome_common.js", "lib/background.js" ]
    },
    "browser_action": {
-      "default_icon": "images/png/branding_16.png",
+      "default_icon": "images/png/16X16.png",
       "default_title": "Dhi AI"
    },
    "content_scripts": [ {
@@ -30,19 +42,8 @@
       "matches": [ "\u003Call_urls>" ]
    } ],
    //   "content_security_policy": "script-src 'self' 'unsafe-eval' https://ssl.google-analytics.com; object-src 'self'",
-   "description": "Dhi (धी) UI, is a Front end for automating your test cases, this extension when integrated with the AI powered backend, Achieves complete automation of your Testing needs",
-//   "homepage_url": "https://www.xyz.com/",
-   "icons": {
-      "128": "images/png/branding_128.png",
-      "16": "images/png/branding_16.png",
-      "48": "images/png/branding_48.png"
-   },
 
-   "name": "Dhi (धी) UI",
-   "offline_enabled": true,
    "options_page": "lib/options.html",
    "permissions": [ "tabs", "activeTab", "webRequest", "contextMenus", "downloads", "webNavigation", "notifications", "http://*/", "https://*/", "storage", "unlimitedStorage", "\u003Call_urls>", "debugger" ],
-//   "update_url": "https://xyz",
-   "version": "0.0.2",
    "web_accessible_resources": [ "lib/prompt.js", "lib/runScript.js" ]
 }
