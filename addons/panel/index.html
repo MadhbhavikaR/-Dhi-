@@ -24,7 +24,7 @@
 <head>
     <meta charset="utf-8" />
     <!-- TODO: Change the title bar text -->
-    <title>Katalon Automation Recorder</title>
+    <title>Dhi (धी) UI</title>
 
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700|Roboto:400,500,700" rel="stylesheet">
 
@@ -72,8 +72,8 @@
 <body>
     <header id="header">
         <hgroup>
-            <img class="logo_img" src="../icons/logo.png"></img>
-            <a href="#"><img id="help" class="toolBar_img" src="../icons/help.png"></img></a>
+            <img class="logo_img" src="../images/png/logo.png"></img>
+            <a href="#"><img id="help" class="toolBar_img" src="../images/png/help.png"></img></a>
         </hgroup>
     </header>
     <!-- end of header bar -->
@@ -290,12 +290,12 @@
                     <li id="reference-log"><a>Reference</a></li>
                     </ul>
                     <ul class="tabs">
-                        <li id="ka-upload"><a title="Upload logs to Katalon Analytics to keep track of execution history, access to automation dashboard and reports."><i></i> Analytics</a></li>
+                        <!--<li id="ka-upload"><a title="Upload logs to Katalon Analytics to keep track of execution history, access to automation dashboard and reports."><i></i> Analytics</a></li>-->
                         <li id="save-log"><a title="Save logs as...">Save</a></li>
                         <li id="clear-log"><a title="Clear logs">Clear</a></li>
                     </ul>
                     <a href="javascript:void(0);" title="Toggle panel" id="show-hide-bottom-panel">
-                        <img src="/icons/SVG/ic_keyboard_arrow_down_black_18px.svg" data-show="/icons/SVG/ic_keyboard_arrow_up_black_18px.svg" data-hide="/icons/SVG/ic_keyboard_arrow_down_black_18px.svg" alt="Show/Hide">
+                        <img src="/images/svg/ic_keyboard_arrow_down_black_18px.svg" data-show="/images/svg/ic_keyboard_arrow_up_black_18px.svg" data-hide="/images/svg/ic_keyboard_arrow_down_black_18px.svg" alt="Show/Hide">
                     </a>
                 </header>
                 <div id="tab4" class="tab_content case_roll">
@@ -316,8 +316,8 @@
                             <input id="load-csv-hidden" type="file" multiple style="display: none"></input>
                             <input id="load-json-hidden" type="file" multiple style="display: none"></input>
                             <div class="submit_link">
-                                <button id="data-files-add-csv" class="sub_btn"><img src="/icons/SVG/add-icon.svg"> Add CSV File</button>
-                                <button id="data-files-add-json" class="sub_btn"><img src="/icons/SVG/add-icon.svg"> Add JSON File</button>
+                                <button id="data-files-add-csv" class="sub_btn"><img src="/images/svg/add-icon.svg"> Add CSV File</button>
+                                <button id="data-files-add-json" class="sub_btn"><img src="/images/svg/add-icon.svg"> Add JSON File</button>
                             </div>
                             <table>
                                 <thead>
@@ -334,7 +334,7 @@
                         <div id="extensionscontainer" class="file-container">
                             <input id="load-extension-hidden" type="file" multiple style="display: none"></input>
                             <div class="submit_link">
-                                <button id="extension-add" class="sub_btn"><img src="/icons/SVG/add-icon.svg"> Add Extension Script</button>
+                                <button id="extension-add" class="sub_btn"><img src="/images/svg/add-icon.svg"> Add Extension Script</button>
                             </div>
                             <table>
                                 <thead>
@@ -365,42 +365,42 @@
                 <option value="java-wd-testng">Java (WebDriver + TestNG)</option>
                 <option value="java-wd-junit">Java (WebDriver + JUnit)</option>
                 <option value="java-rc-junit">Java (WebDriver-backed Remote Control + JUnit)</option>
-                <option value="katalon" selected>Katalon Studio</option>
+                <option value="katalon">Katalon Studio</option>
                 <option value="python2-wd-unittest">Python 2 (WebDriver + unittest)</option>
                 <option value="python-appdynamics">Python (AppDynamics)</option>
-                <option value="robot">Robot Framework</option>
+                <option value="robot" selected>Robot Framework</option>
                 <option value="ruby-wd-rspec">Ruby (WebDriver + RSpec)</option>
                 <option value="xml">XML</option>
             </select>
-            <div>You can write your own plugin to export recorded test cases to other formats. Read more <a target="_blank" href="https://docs.katalon.com/x/igHR" class="katalon-link">here</a>.</div>
-            <div class="kat clear"><a target="_blank" href="https://www.katalon.com" class="katalon-link">Katalon Studio</a> is one of the top 10 test automation solutions which includes all required features to makes Selenium and Appium automation easy for teams with limited coding capability to apply GUI, Mobile and API testings.</div>
+            <div>Since this extension supports plugins from Katalon Recorder, You can write your own plugin to export recorded test cases to other formats. Read more <a target="_blank" href="https://docs.katalon.com/x/igHR" class="katalon-link">here</a>.</div>
+            <!--<div class="kat clear"><a target="_blank" href="https://www.katalon.com" class="katalon-link">Katalon Studio</a> is one of the top 10 test automation solutions which includes all required features to makes Selenium and Appium automation easy for teams with limited coding capability to apply GUI, Mobile and API testings.</div>-->
             <textarea id="txt-script-id" class="txt-script">scripts</textarea>
         </div>
-        <div id="ka-select-project-dialog" title="Select Katalon Analytics Project" style="display: none">
-            <label for="select-ka-project">Select a project to upload your logs. You can create new projects at <a target="_blank" href="https://analytics.katalon.com" class="katalon-link">https://analytics.katalon.com</a>.</label>
-            <select id="select-ka-project"></select>
-        </div>
+        <!--<div id="ka-select-project-dialog" title="Select Katalon Analytics Project" style="display: none">-->
+            <!--<label for="select-ka-project">Select a project to upload your logs. You can create new projects at <a target="_blank" href="https://analytics.katalon.com" class="katalon-link">https://analytics.katalon.com</a>.</label>-->
+            <!--<select id="select-ka-project"></select>-->
+        <!--</div>-->
         <div id="helpDialog" style="display: none">
             <button id="helpDialog-close"></button>
-            <h1>Need help? Explore Dhi (धी) AI Support Resources</h1>
+            <h1>Need help? Explore Dhi (धी) UI Support Resources</h1>
             <!--<div id="panel-container">
                 <a class="panel" href="https://docs.katalon.com/x/cRtO?utm_source=chrome%20recorder%20pop-up" target="_blank">
-                    <img src="/icons/SVG/user-manual-icon.svg">
+                    <img src="/images/svg/user-manual-icon.svg">
                     <p class="panel-title">User Manual</p>
                     <p class="panel-description">Guides to utilize Katalon Recorder for automation effectively.</p>
                 </a>
                 <a class="panel" href="https://www.katalon.com/videos/katalon-recorder-videos/?utm_source=chrome%20recorder%20pop-up" target="_blank">
-                    <img src="/icons/SVG/videos-icon.svg">
+                    <img src="/images/svg/videos-icon.svg">
                     <p class="panel-title">Videos</p>
                     <p class="panel-description">Tutorial videos from our expert users with detailed instruction.</p>
                 </a>
                 <a class="panel" href="https://forum.katalon.com/?utm_source=chrome%20recorder%20pop-up" target="_blank">
-                    <img src="/icons/SVG/community-icon.svg">
+                    <img src="/images/svg/community-icon.svg">
                     <p class="panel-title">Community</p>
                     <p class="panel-description">Access Katalon fellow users tips and tricks sharing.</p>
                 </a>
                 <a id="katalon-introduction" class="panel" href="https://www.katalon.com?utm_source=chrome%20recorder%20pop-up" target="_blank">
-                    <img src="/icons/SVG/advanced-icon.svg">
+                    <img src="/images/svg/advanced-icon.svg">
                     <p class="panel-title">Free Advanced Automation</p>
                     <p class="panel-description">Try Katalon Studio - the best solution for Web, API &amp; Mobile automation.</p>
                 </a>

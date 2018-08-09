@@ -125,7 +125,7 @@ function notification(command, target, value) {
     // In Chrome, notification.create must have "iconUrl" key in notificationOptions
     browser.notifications.create(tempCount, {
         "type": "basic",
-        "iconUrl": "/icons/branding_48.png",
+        "iconUrl": "/images/png/branding_48.png",
         "title": "Command Recorded",
         "message": "command: " + String(command) + "\ntarget: " + tacPreprocess(String(target[0][0])) + "\nvalue: " + String(value)
     });
