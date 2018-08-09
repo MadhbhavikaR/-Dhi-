@@ -742,7 +742,10 @@ $(function() {
     var screenshotLi = $('#screenshot');
     var dataLi = $('#data-files');
     var extensionsLi = $('#extensions');
-    var lis = [logLi, referenceLi, variableLi, screenshotLi, dataLi, extensionsLi];
+    var keywordLi = $('#keywords-log');
+    var elementInspectorLi = $('#element-nspector');
+
+    var lis = [logLi, referenceLi, variableLi, screenshotLi, dataLi, extensionsLi,keywordLi,elementInspectorLi];
 
     var logContainer = $('#logcontainer');
     var referenceContainer = $('#refercontainer');
@@ -750,7 +753,9 @@ $(function() {
     var screenshotContainer = $('#screenshotcontainer');
     var dataContainer = $('#datacontainer');
     var extensionsContainer = $('#extensionscontainer');
-    var containers = [logContainer, referenceContainer, variableContainer, screenshotContainer, dataContainer, extensionsContainer];
+    var keywordcontainer = $('#keywordcontainer');
+    var elementinspectorcontainer = $('#elementinspectorcontainer');
+    var containers = [logContainer, referenceContainer, variableContainer, screenshotContainer, dataContainer, extensionsContainer,keywordcontainer,elementinspectorcontainer];
 
     var clearLog = $('#clear-log');
     var saveLog = $('#save-log');
@@ -775,6 +780,13 @@ $(function() {
     });
     extensionsLi.on('click', function() {
         setActiveTab(extensionsLi, extensionsContainer);
+    });
+//gjangra
+    keywordLi.on('click', function() {
+        setActiveTab(keywordLi, keywordcontainer);
+    });
+    elementInspectorLi.on('click', function() {
+        setActiveTab(elementInspectorLi, elementinspectorcontainer);
     });
 
     function setActiveTab(li, container) {
@@ -807,6 +819,13 @@ $(function() {
         //     clearLog.parent().show();
         // }
     }
+});
+
+//gjangra
+$("#selectButton").jqxTooltip({
+    theme: 'metrodark',
+    showDelay: 500,
+    content: chrome.i18n.getMessage("btn_tooltip_select"),
 });
 
 // KAT-END

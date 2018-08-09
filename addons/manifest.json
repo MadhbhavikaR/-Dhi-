@@ -1,5 +1,6 @@
 {
    "manifest_version": 2,
+   "default_locale": "en",
    "background": {
       "scripts": [ "content/bowser.js", "lib/browser-polyfill.js", "background/background.js", "background/enhancements.js", "chrome_variables_init.js", "lib/constants.js", "lib/chrome_variables_default.js", "chrome_variables_init.js", "lib/chrome_common.js", "lib/background.js" ]
    },
