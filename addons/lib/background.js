@@ -339,9 +339,11 @@ function stopAddon() {
 
 chrome.runtime.onStartup.addListener(function () {
     setCurrentWindow();
-    waitForConnection();
+    // waitForConnection();
 });
 
+/*
 chrome.runtime.onInstalled.addListener(function (details) {
     waitForConnection();
 });
+*/

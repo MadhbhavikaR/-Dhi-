@@ -14,29 +14,27 @@ chrome.runtime.onInstalled.addListener(function(details) {
     if (details.reason === 'install') {
         _gaq.push(['_trackEvent', 'app', 'install']);
         _gaq.push(['_trackEvent', 'app', 'open-landing-page']);
-        // chrome.tabs.create({'url': 'https://www.katalon.com/automation-recorder'});
-        chrome.tabs.create({'url': 'https://www.katalon.com'});
+        chrome.tabs.create({'url': 'https://dhi.madhbhavikar.online'});
     } else if (details.reason === 'update') {
         _gaq.push(['_trackEvent', 'app', 'update']);
         var previousVersion = details.previousVersion;
         var previousMajorVersion = previousVersion.substring(0, previousVersion.indexOf('.'));
         if (previousMajorVersion === '1') {
             _gaq.push(['_trackEvent', 'app', 'open-landing-page']);
-            // chrome.tabs.create({'url': 'https://www.katalon.com/automation-recorder'});
-            chrome.tabs.create({'url': 'https://www.katalon.com'});
+            chrome.tabs.create({'url': 'https://dhi.madhbhavikar.online'});
         }
     }
 });
 
 // chrome.runtime.setUninstallURL('https://www.surveymonkey.com/r/katalon-recorder');
-chrome.runtime.setUninstallURL('https://www.katalon.com');
+chrome.runtime.setUninstallURL('https://dhi.madhbhavikar.online');
 // KAT-END
 
 // KAT-BEGIN save last window size
 function getWindowSize(callback) {
     chrome.storage.local.get('window', function(result) {
         var height = 730;
-        var width = 750;
+        var width = 800;
         if (result) {
             try {
                 result = result.window;

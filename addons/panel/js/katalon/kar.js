@@ -781,7 +781,6 @@ $(function() {
     extensionsLi.on('click', function() {
         setActiveTab(extensionsLi, extensionsContainer);
     });
-//gjangra
     keywordLi.on('click', function() {
         setActiveTab(keywordLi, keywordcontainer);
     });
@@ -821,16 +820,6 @@ $(function() {
     }
 });
 
-//gjangra
-$("#selectButton").jqxTooltip({
-    theme: 'metrodark',
-    showDelay: 500,
-    content: chrome.i18n.getMessage("btn_tooltip_select"),
-});
-
-// KAT-END
-
-// KAT-BEGIN handle click event for settings button
 $(function() {
     $('#settings').on('click', function() {
         browser.windows.update(
@@ -843,9 +832,7 @@ $(function() {
         }, function(tab){});
     });
 });
-// KAT-END
 
-// KAT-BEGIN add tooltip for button
 $(function() {
     $('#record').attr('title', "Click and navigate to the desired browser tab and record your tests. NOTE: If the tab has been opened before Dhi (धी) UI was installed, please refresh it.");
     $('#playback').attr('title', "Run selected test case on the active tab, any interference may stop the process. NOTE: If the tab has been opened before Dhi (धी) UI was installed, please refresh it.");
@@ -1072,7 +1059,7 @@ function showErrorDialog() {
 
 $(function() {
 
-    var kaEndpoint = 'https://analytics.katalon.com';
+    var kaEndpoint = 'https://dhi.madhbhavikar.online';
 
     var dialog = $( '#ka-select-project-dialog');
     dialog.dialog({
@@ -1168,7 +1155,7 @@ $(function() {
             },
             error: function(response) {
                 console.log(response);
-                // showDialog('<p>Please log in to <a target="_blank" href="https://analytics.katalon.com" class="katalon-link">Dhi (धी) UI </a> first and try again.</p><p>You can register a completely free account at <a target="_blank" href="https://www.katalon.com" class="katalon-link">https://www.katalon.com</a>.</p><p>Katalon Analytics helps you manage automation results as you test it manually and generate quality, performance and flakiness reports to improve your confidence in evaluating the test results. Katalon Analytics supports both <a target="_blank" href="https://www.katalon.com" class="katalon-link">Katalon Studio</a> (one of the top 10 test automation solutions) and Katalon Recorder.</p><p><a target="_blank" href="https://www.katalon.com/katalon-analytics" class="katalon-link">Learn more</a> about Katalon Analytics (Beta).</p>', true);
+                // showDialog('<p>Please log in to <a target="_blank" href="https://dhi.madhbhavikar.online" class="katalon-link">Dhi (धी) UI </a> first and try again.</p><p>You can register a completely free account at <a target="_blank" href="https://dhi.madhbhavikar.online" class="katalon-link">https://www.katalon.com</a>.</p><p>Katalon Analytics helps you manage automation results as you test it manually and generate quality, performance and flakiness reports to improve your confidence in evaluating the test results. Katalon Analytics supports both <a target="_blank" href="https://www.katalon.com" class="katalon-link">Katalon Studio</a> (one of the top 10 test automation solutions) and Katalon Recorder.</p><p><a target="_blank" href="https://www.katalon.com/katalon-analytics" class="katalon-link">Learn more</a> about Katalon Analytics (Beta).</p>', true);
             }
         });
     });

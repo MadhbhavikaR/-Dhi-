@@ -2,83 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4f0e402-8382-4597-bf8a-2aeab8f98e5e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/images/png/128X128.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/png/16X16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/png/32X32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/png/48X48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/png/64X64.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/png/branding_128.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/png/branding_16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/png/branding_32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/png/branding_48.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/png/branding_64.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/manifest.json.bk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/background/enhancements.js" beforeDir="false" afterPath="$PROJECT_DIR$/background/enhancements.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chrome_variables_init.js" beforeDir="false" afterPath="$PROJECT_DIR$/chrome_variables_init.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/selenium-browserbot.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/selenium-browserbot.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/background.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/background.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/options.html" beforeDir="false" afterPath="$PROJECT_DIR$/lib/options.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manifest.json.bak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/panel/js/background/editor.js" beforeDir="false" afterPath="$PROJECT_DIR$/panel/js/background/editor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/128X128.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/64X64.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/DHI.png" beforeDir="false" afterPath="$PROJECT_DIR$/../assets/DHI.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/android-icon-144x144.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/android-icon-192x192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/android-icon-36x36.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/android-icon-48x48.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/android-icon-72x72.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/android-icon-96x96.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/apple-icon-114x114.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/apple-icon-120x120.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/apple-icon-144x144.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/apple-icon-152x152.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/apple-icon-180x180.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/apple-icon-57x57.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/apple-icon-60x60.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/apple-icon-72x72.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/apple-icon-76x76.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/apple-icon-precomposed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/apple-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/browserconfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/dhi_104x104.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/dhi_112x112.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/dhi_120x120.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/dhi_128x128.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/dhi_136x136.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/dhi_144x144.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/dhi_152x152.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/dhi_160x160.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/dhi_168x168.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/dhi_16x16.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/dhi_176x176.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/dhi_184x184.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/dhi_192x192.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/dhi_200x200.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/dhi_208x208.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/dhi_216x216.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/dhi_224x224.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/dhi_232x232.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/dhi_240x240.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/dhi_248x248.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/dhi_24x24.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/dhi_256x256.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/dhi_32x32.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/dhi_40x40.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/dhi_48x48.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/dhi_56x56.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/dhi_64x64.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/dhi_72x72.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/dhi_80x80.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/dhi_88x88.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/dhi_96x96.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/dhi_X8f_icon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/favicon-16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/favicon-32x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/favicon-96x96.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/ms-icon-144x144.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/ms-icon-150x150.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/ms-icon-310x310.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/ms-icon-70x70.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/panel/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/panel/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/panel/js/background/window-controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/panel/js/background/window-controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/panel/js/katalon/kar.js" beforeDir="false" afterPath="$PROJECT_DIR$/panel/js/katalon/kar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/panel/js/katalon/selenium-ide/testCase.js" beforeDir="false" afterPath="$PROJECT_DIR$/panel/js/katalon/selenium-ide/testCase.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -145,14 +79,56 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-1373422386">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="5" />
+          <entry key="html" value="22" />
+          <entry key="js" value="92" />
+          <entry key="json" value="197" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="5" />
+          <entry key="HTML" value="22" />
+          <entry key="JSON" value="197" />
+          <entry key="JavaScript" value="92" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="2" />
+          <entry key="html" value="3" />
+          <entry key="js" value="11" />
+          <entry key="json" value="3" />
+          <entry key="svg" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="2" />
+          <entry key="HTML" value="3" />
+          <entry key="JSON" value="3" />
+          <entry key="JavaScript" value="11" />
+          <entry key="SVG" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/manifest.json">
+        <entry file="file://$PROJECT_DIR$/panel/js/katalon/kar.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+            <state relative-caret-position="505">
+              <caret line="835" selection-start-line="835" selection-end-line="835" />
             </state>
           </provider>
         </entry>
@@ -161,12 +137,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>katalon/images</find>
-      <find>katalon/</find>
-      <find>page/</find>
-      <find>common/</find>
-      <find>kar</find>
-      <find>Katalon Recorder</find>
       <find>update</find>
       <find>katalonServerPortForFirefox</find>
       <find>neighbor-xpaths-generator.min</find>
@@ -189,7 +159,18 @@
       <find>advan</find>
       <find>branding_128.png</find>
       <find>16X16</find>
+      <find>Dhi AI</find>
+      <find>katalon.com</find>
+      <find>tryto</find>
+      <find>connect</find>
+      <find>The message port closed before a response was received</find>
+      <find>setCurrentWindow</find>
+      <find>per</find>
+      <find>gjan</find>
     </findStrings>
+    <dirStrings>
+      <dir>M:\Projects\-Dhi-\addons</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -197,12 +178,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/panel/css/kar.css" />
         <option value="$PROJECT_DIR$/panel/js/background/editor.js" />
-        <option value="$PROJECT_DIR$/panel/js/katalon/kar.js" />
         <option value="$PROJECT_DIR$/lib/options.html" />
-        <option value="$PROJECT_DIR$/panel/index.html" />
+        <option value="$PROJECT_DIR$/chrome_variables_init.js" />
         <option value="$PROJECT_DIR$/manifest.json" />
+        <option value="$PROJECT_DIR$/lib/background.js" />
+        <option value="$PROJECT_DIR$/panel/index.html" />
+        <option value="$PROJECT_DIR$/background/enhancements.js" />
+        <option value="$PROJECT_DIR$/panel/css/kar.css" />
+        <option value="$PROJECT_DIR$/panel/js/katalon/kar.js" />
       </list>
     </option>
   </component>
@@ -224,6 +208,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -239,24 +224,7 @@
             <path>
               <item name="addons" type="b2602c69:ProjectViewProjectNode" />
               <item name="addons" type="462c0819:PsiDirectoryNode" />
-              <item name="content" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="addons" type="b2602c69:ProjectViewProjectNode" />
-              <item name="addons" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="addons" type="b2602c69:ProjectViewProjectNode" />
-              <item name="addons" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="png" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="addons" type="b2602c69:ProjectViewProjectNode" />
-              <item name="addons" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="svg" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="addons" type="b2602c69:ProjectViewProjectNode" />
@@ -268,16 +236,28 @@
               <item name="addons" type="462c0819:PsiDirectoryNode" />
               <item name="panel" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="addons" type="b2602c69:ProjectViewProjectNode" />
+              <item name="addons" type="462c0819:PsiDirectoryNode" />
+              <item name="panel" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="addons" type="b2602c69:ProjectViewProjectNode" />
+              <item name="addons" type="462c0819:PsiDirectoryNode" />
+              <item name="panel" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="katalon" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -318,11 +298,12 @@
       <workItem from="1533791581012" duration="317000" />
       <workItem from="1533792116976" duration="671000" />
       <workItem from="1533793759792" duration="1782000" />
+      <workItem from="1533806115693" duration="3858000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6849000" />
+    <option name="totallyTimeSpent" value="10707000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
@@ -347,20 +328,20 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24973656" />
-      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="1" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Find" order="5" weight="0.32939914" />
-      <window_info anchor="bottom" id="Run" order="6" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32939914" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -395,13 +376,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/background/enhancements.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="17" column="36" lean-forward="true" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/prompt.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-476">
@@ -416,33 +390,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chrome_variables_init.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/neighbor-xpaths-generator.min.js" />
     <entry file="file://$PROJECT_DIR$/content/neighbor-xpaths-generator.min.js" />
     <entry file="file://$PROJECT_DIR$/panel/js/background/editor.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="117" column="74" lean-forward="true" selection-start-line="117" selection-start-column="74" selection-end-line="117" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/panel/css/kar.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="1469" column="24" lean-forward="true" selection-start-line="1469" selection-start-column="24" selection-end-line="1469" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/panel/js/katalon/kar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="960" column="46" lean-forward="true" selection-start-line="960" selection-start-column="46" selection-end-line="960" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -453,13 +406,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/manifest.json.bk">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/manifest.json.bk" />
     <entry file="file://$PROJECT_DIR$/images/png/icons-48.png" />
     <entry file="file://$PROJECT_DIR$/images/png/record_28.png" />
     <entry file="file://$PROJECT_DIR$/images/png/sideex1.png" />
@@ -473,17 +420,79 @@
     <entry file="file://$PROJECT_DIR$/images/png/logo.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/panel/index.html">
+    <entry file="file://$PROJECT_DIR$/lib/ku-recorder.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="74" column="39" selection-start-line="74" selection-start-column="39" selection-end-line="74" selection-end-column="39" />
+        <state relative-caret-position="-340">
+          <caret line="48" column="24" lean-forward="true" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/browser-polyfill.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/panel/js/background/playback.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="751" column="38" lean-forward="true" selection-start-line="751" selection-start-column="38" selection-end-line="751" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/background.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="315" column="7" lean-forward="true" selection-start-line="315" selection-start-column="7" selection-end-line="315" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/manifest.json">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="34" column="25" lean-forward="true" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chrome_variables_init.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+          <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/svg/save-icon.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/panel/css/kar.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="929" lean-forward="true" selection-start-line="929" selection-end-line="929" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/panel/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="82" column="52" selection-start-line="82" selection-start-column="52" selection-end-line="82" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/background/enhancements.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="29" lean-forward="true" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/panel/js/katalon/kar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="835" selection-start-line="835" selection-end-line="835" />
         </state>
       </provider>
     </entry>
