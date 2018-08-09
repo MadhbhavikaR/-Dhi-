@@ -3,13 +3,15 @@ var _gaq = _gaq || [];
 _gaq.push(['_setAccount', 'UA-81802338-9']);
 _gaq.push(['_trackPageview']);
 
+var windowHeight = 743;
+var windowWidth = 793;
+
 (function() {
   var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
   ga.src = 'https://ssl.google-analytics.com/ga.js';
   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 })();
 
-// KAT-BEGIN show docs on install or upgrade from 1.0
 chrome.runtime.onInstalled.addListener(function(details) {
     if (details.reason === 'install') {
         _gaq.push(['_trackEvent', 'app', 'install']);
@@ -26,31 +28,25 @@ chrome.runtime.onInstalled.addListener(function(details) {
     }
 });
 
-// chrome.runtime.setUninstallURL('https://www.surveymonkey.com/r/katalon-recorder');
 chrome.runtime.setUninstallURL('https://dhi.madhbhavikar.online');
-// KAT-END
 
-// KAT-BEGIN save last window size
 function getWindowSize(callback) {
     chrome.storage.local.get('window', function(result) {
-        var height = 730;
-        var width = 800;
         if (result) {
             try {
                 result = result.window;
                 if (result.height) {
-                    height = result.height;
+                    windowHeight = result.height;
                 }
                 if (result.width) {
-                    width = result.width;
+                    windowWidth = result.width;
                 }
             } catch (e) {
             }
         }
-        callback(height, width);
+        callback(windowHeight, windowWidth);
     });
 }
-// KAT-END
 
 var attachedTabs = {};
 

@@ -8,8 +8,8 @@ html, body {
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
     color: #333333;
-    min-width: initial;
-    min-height: initial;
+    min-width: 743px;
+    min-height: 793px;
     overflow: initial;
 }
 

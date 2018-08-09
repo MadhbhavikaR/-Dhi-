@@ -827,7 +827,7 @@ $(function() {
             { focused: true }
         );
         chrome.tabs.create({
-            url: chrome.extension.getURL('katalon/options.html'),
+            url: chrome.extension.getURL('lib/options.html'),
             windowId: contentWindowId
         }, function(tab){});
     });
