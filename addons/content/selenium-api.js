@@ -1017,7 +1017,7 @@ Selenium.prototype.doType = function(locator, value) {
                                 );
                             },
                             error: function(jqXHR, textStatus, errorThrown) {
-                                console.log('Please check if Dhi (धी) AI helper has started.')
+                                console.log('Please check if Dhi (धी) UI helper has started.')
                                 reject(textStatus);
                             }
                         });

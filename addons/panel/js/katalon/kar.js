@@ -295,7 +295,7 @@ $(function() {
 //add context menu button for test suite/case
 function addContextMenuButton(id, node, menu, isCase) {
     var buttonWrapper = document.createElement('div');
-    buttonWrapper.innerHTML = '<button class="btn-more"><img src="/icons/SVG/more-icon.svg" alt="More" title="More"></button>';
+    buttonWrapper.innerHTML = '<button class="btn-more"><img src="/images/svg/more-icon.svg" alt="More" title="More"></button>';
     var button = buttonWrapper.firstChild;
     node.appendChild(button);
     button.addEventListener("click", function(event) {
@@ -847,10 +847,10 @@ $(function() {
 
 // KAT-BEGIN add tooltip for button
 $(function() {
-    $('#record').attr('title', "Click and navigate to the desired browser tab and record your tests. NOTE: If the tab has been opened before Dhi (धी) AI was installed, please refresh it.");
-    $('#playback').attr('title', "Run selected test case on the active tab, any interference may stop the process. NOTE: If the tab has been opened before Dhi (धी) AI was installed, please refresh it.");
-    $('#playSuite').attr('title', "Run selected test suite on the active tab, any interference may stop the process. NOTE: If the tab has been opened before Dhi (धी) AI was installed, please refresh it.");
-    $('#playSuites').attr('title', "Run all test suites on the active tab, any interference may stop the process. NOTE: If the tab has been opened before Dhi (धी) AI was installed, please refresh it.");
+    $('#record').attr('title', "Click and navigate to the desired browser tab and record your tests. NOTE: If the tab has been opened before Dhi (धी) UI was installed, please refresh it.");
+    $('#playback').attr('title', "Run selected test case on the active tab, any interference may stop the process. NOTE: If the tab has been opened before Dhi (धी) UI was installed, please refresh it.");
+    $('#playSuite').attr('title', "Run selected test suite on the active tab, any interference may stop the process. NOTE: If the tab has been opened before Dhi (धी) UI was installed, please refresh it.");
+    $('#playSuites').attr('title', "Run all test suites on the active tab, any interference may stop the process. NOTE: If the tab has been opened before Dhi (धी) UI was installed, please refresh it.");
     $('#settings').attr('title', "Settings");
     $('.sub_btn#help').attr('title', "Help");
     $('#grid-add-btn').attr('title', "Add new test step");
@@ -990,7 +990,7 @@ $(function() {
         if (imagesLookup.hasOwnProperty(buttonId)) {
             var button = $(buttonId);
             var img = $('<img>');
-            img.attr('src', '/icons/SVG/' + imagesLookup[buttonId]);
+            img.attr('src', '/images/svg/' + imagesLookup[buttonId]);
             button.find("i:first-child").remove();
             button.prepend(img);
         }
@@ -1000,7 +1000,7 @@ $(function() {
 
 $(function() {
     var manifestData = chrome.runtime.getManifest();
-    $(document).attr('title', 'Dhi (धी) AI ' + manifestData.version)
+    $(document).attr('title', 'Dhi (धी) UI ' + manifestData.version)
 });
 
 // KAT-BEGIN clear "Save" and "Clear" text
@@ -1016,10 +1016,10 @@ $(function() {
 function switchRecordButton(stop) {
     var record = $('#record');
     if (stop) {
-        record.find('img').attr('src', '/icons/SVG/record-icon-16.svg');
+        record.find('img').attr('src', '/images/svg/record-icon-16.svg');
         record.removeClass("record--stop");
     } else {
-        record.find('img').attr('src', '/icons/SVG/stop-icon-16.svg');
+        record.find('img').attr('src', '/images/svg/stop-icon-16.svg');
         record.addClass("record--stop");
     }
 }
@@ -1054,7 +1054,7 @@ function showDialog(html, showOK) {
     return $('<div></div>')
         .html(html)
         .dialog({
-            title: 'Dhi (धी) AI',
+            title: 'Dhi (धी) UI',
             resizable: false,
             height: "auto",
             width: 400,
@@ -1168,7 +1168,7 @@ $(function() {
             },
             error: function(response) {
                 console.log(response);
-                // showDialog('<p>Please log in to <a target="_blank" href="https://analytics.katalon.com" class="katalon-link">Dhi (धी) AI </a> first and try again.</p><p>You can register a completely free account at <a target="_blank" href="https://www.katalon.com" class="katalon-link">https://www.katalon.com</a>.</p><p>Katalon Analytics helps you manage automation results as you test it manually and generate quality, performance and flakiness reports to improve your confidence in evaluating the test results. Katalon Analytics supports both <a target="_blank" href="https://www.katalon.com" class="katalon-link">Katalon Studio</a> (one of the top 10 test automation solutions) and Katalon Recorder.</p><p><a target="_blank" href="https://www.katalon.com/katalon-analytics" class="katalon-link">Learn more</a> about Katalon Analytics (Beta).</p>', true);
+                // showDialog('<p>Please log in to <a target="_blank" href="https://analytics.katalon.com" class="katalon-link">Dhi (धी) UI </a> first and try again.</p><p>You can register a completely free account at <a target="_blank" href="https://www.katalon.com" class="katalon-link">https://www.katalon.com</a>.</p><p>Katalon Analytics helps you manage automation results as you test it manually and generate quality, performance and flakiness reports to improve your confidence in evaluating the test results. Katalon Analytics supports both <a target="_blank" href="https://www.katalon.com" class="katalon-link">Katalon Studio</a> (one of the top 10 test automation solutions) and Katalon Recorder.</p><p><a target="_blank" href="https://www.katalon.com/katalon-analytics" class="katalon-link">Learn more</a> about Katalon Analytics (Beta).</p>', true);
             }
         });
     });

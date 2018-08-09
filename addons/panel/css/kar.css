@@ -248,11 +248,11 @@ section#main {
 }
 
 .sub_btn#settings i::before {
-    background-image: url(/icons/SVG/setting-icon.svg);
+    background-image: url(/images/svg/setting-icon.svg);
 }
 
 .sub_btn#help i::before {
-    background-image: url(/icons/SVG/help-icon.svg);
+    background-image: url(/images/svg/help-icon.svg);
 }
 
 /* #playSuites{
@@ -331,14 +331,14 @@ div.suite-open:hover {
 }
 
 div.suite-open i {
-    background-image: url(/icons/SVG/open-icon.svg);
+    background-image: url(/images/svg/open-icon.svg);
     width: 16px;
     height: 16px;
     margin: 0;
 }
 
 div.suite-open:hover i {
-    background-image: url(/icons/SVG/open-icon-hover.svg);
+    background-image: url(/images/svg/open-icon-hover.svg);
 }
 
 div.suite-open i:before {
@@ -356,14 +356,14 @@ div.suite-plus:hover {
 }
 
 div.suite-plus i {
-    background-image: url(/icons/SVG/add-icon.svg);
+    background-image: url(/images/svg/add-icon.svg);
     width: 16px;
     height: 16px;
     margin: 0;
 }
 
 div.suite-plus:hover i {
-    background-image: url(/icons/SVG/add-icon-hover.svg);
+    background-image: url(/images/svg/add-icon-hover.svg);
 }
 
 div.suite-plus i:before {
@@ -388,12 +388,12 @@ div.suite-plus i:before {
 }
 
 .message .success {
-    background-image: url("/icons/SVG/pass.svg");
+    background-image: url("/images/svg/pass.svg");
     background-size: 6px auto;
 }
 
 .message .fail {
-    background-image: url("/icons/SVG/fail.svg");
+    background-image: url("/images/svg/fail.svg");
     background-size: 6px auto;
 }
 
@@ -423,7 +423,7 @@ div.suite-plus i:before {
 }
 
 .message strong:hover:before {
-    background: url(/icons/SVG/drap-drop-icon.svg) center no-repeat;
+    background: url(/images/svg/drap-drop-icon.svg) center no-repeat;
 }
 
 .message p {
@@ -463,7 +463,7 @@ div.suite-plus i:before {
 }
 
 .message p:hover:before {
-    background: url(/icons/SVG/drap-drop-icon.svg) center no-repeat;
+    background: url(/images/svg/drap-drop-icon.svg) center no-repeat;
 }
 
 div.message:hover {
@@ -633,12 +633,12 @@ div.test-suite-title {
 }
 
 .tablesorter tbody tr:hover td:first-child div:nth-child(2):before {
-    background: url(/icons/SVG/drap-drop-icon.svg) center no-repeat;
+    background: url(/images/svg/drap-drop-icon.svg) center no-repeat;
 }
 
 .tablesorter tbody tr td.break {
     background-color: transparent;
-    background-image: url(/icons/SVG/breakpoint.svg);
+    background-image: url(/images/svg/breakpoint.svg);
     background-repeat: no-repeat;
     background-position: 2px center;
 }
@@ -702,35 +702,35 @@ div.test-suite-title {
 }
 
 #grid-add-btn {
-    background-image: url(/icons/SVG/add-icon.svg);
+    background-image: url(/images/svg/add-icon.svg);
 }
 
 #grid-add-btn:hover {
-    background-image: url(/icons/SVG/add-icon-hover.svg);
+    background-image: url(/images/svg/add-icon-hover.svg);
 }
 
 #grid-delete-btn {
-    background-image: url(/icons/SVG/delete-icon.svg);
+    background-image: url(/images/svg/delete-icon.svg);
 }
 
 #grid-delete-btn:hover {
-    background-image: url(/icons/SVG/delete-icon-hover.svg);
+    background-image: url(/images/svg/delete-icon-hover.svg);
 }
 
 #grid-copy-btn {
-    background-image: url(/icons/SVG/copy-icon.svg);
+    background-image: url(/images/svg/copy-icon.svg);
 }
 
 #grid-copy-btn:hover {
-    background-image: url(/icons/SVG/copy-icon-hover.svg);
+    background-image: url(/images/svg/copy-icon-hover.svg);
 }
 
 #grid-paste-btn {
-    background-image: url(/icons/SVG/paste-icon.svg);
+    background-image: url(/images/svg/paste-icon.svg);
 }
 
 #grid-paste-btn:hover {
-    background-image: url(/icons/SVG/paste-icon-hover.svg);
+    background-image: url(/images/svg/paste-icon-hover.svg);
 }
 
 #command-toolbar {
@@ -839,12 +839,12 @@ div.test-suite-title {
 }
 
 #selectElementButton {
-    background-image: url(/icons/SVG/select-icon.svg);
+    background-image: url(/images/svg/select-icon.svg);
     position: relative;
 }
 
 #selectElementButton.active, #selectElementButton:hover {
-    background-image: url(/icons/SVG/select-icon-hover.svg);
+    background-image: url(/images/svg/select-icon-hover.svg);
     background-color: #fbfbfb;
 }
 
@@ -865,11 +865,11 @@ div.test-suite-title {
 }
 
 #showElementButton {
-    background-image: url(/icons/SVG/find-icon.svg);
+    background-image: url(/images/svg/find-icon.svg);
 }
 
 #showElementButton:hover {
-    background-image: url(/icons/SVG/find-icon-hover.svg);
+    background-image: url(/images/svg/find-icon-hover.svg);
     background-color: #fbfbfb;
 }
 
@@ -935,27 +935,27 @@ html ul.tabs #ka-upload a {
 }
 
 #save-log a {
-    background-image: url(/icons/SVG/save-icon.svg);
+    background-image: url(/images/svg/save-icon.svg);
     background-repeat: no-repeat;
     background-position: center center;
 }
 
 #save-log a:hover {
-    background-image: url(/icons/SVG/save-icon-hover.svg);
+    background-image: url(/images/svg/save-icon-hover.svg);
 }
 
 #clear-log a {
-    background-image: url(/icons/SVG/delete-icon.svg);
+    background-image: url(/images/svg/delete-icon.svg);
     background-repeat: no-repeat;
     background-position: center center;
 }
 
 #clear-log a:hover {
-    background-image: url(/icons/SVG/delete-icon-hover.svg);
+    background-image: url(/images/svg/delete-icon-hover.svg);
 }
 
 #ka-upload a i {
-    background-image: url(/icons/SVG/upload-icon.svg);
+    background-image: url(/images/svg/upload-icon.svg);
     background-repeat: no-repeat;
     background-position: center;
     display: inline-block;
@@ -964,7 +964,7 @@ html ul.tabs #ka-upload a {
 }
 
 #ka-upload a:hover i {
-    background-image: url(/icons/SVG/upload-icon-hover.svg);
+    background-image: url(/images/svg/upload-icon-hover.svg);
 }
 
 html ul.tabs li:active {
@@ -1371,7 +1371,7 @@ a.katalon-link {
     right: 14px;
     border: none;
     background-color: transparent;
-    background-image: url(/icons/SVG/close-icon.svg);
+    background-image: url(/images/svg/close-icon.svg);
     width: 18px;
     height: 18px;
     font-size: 14px;
@@ -1383,7 +1383,7 @@ a.katalon-link {
 }
 
 #helpDialog-close:hover {
-    background-image: url(/icons/SVG/close-icon-hover.svg);
+    background-image: url(/images/svg/close-icon-hover.svg);
 }
 
 #helpDialog-close:focus {
@@ -1491,19 +1491,19 @@ a.katalon-link {
 }
 
 .file-container button.rename-button {
-    background-image: url(/icons/SVG/edit-icon.svg);
+    background-image: url(/images/svg/edit-icon.svg);
 }
 
 .file-container button.rename-button:hover {
-    background-image: url(/icons/SVG/edit-icon-hover.svg);
+    background-image: url(/images/svg/edit-icon-hover.svg);
 }
 
 .file-container button.delete-button {
-    background-image: url(/icons/SVG/delete-icon.svg);
+    background-image: url(/images/svg/delete-icon.svg);
 }
 
 .file-container button.delete-button:hover {
-    background-image: url(/icons/SVG/delete-icon-hover.svg);
+    background-image: url(/images/svg/delete-icon-hover.svg);
 }
 
 .file-container th, .file-container td {
