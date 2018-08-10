@@ -1,3 +1,4 @@
+/*
 var _gaq = _gaq || [];
 _gaq.push(['_setAccount', 'UA-81802338-9']);
 _gaq.push(['_trackPageview']);
@@ -7,6 +8,7 @@ _gaq.push(['_trackPageview']);
   ga.src = 'https://ssl.google-analytics.com/ga.js';
   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 })();
+*/
 
 var dataFiles;
 var extensions;
@@ -242,7 +244,7 @@ function _loadSeleniumCommands() {
 // load Selenium IDE command reference
 $(function() {
     $.ajax({
-        url: 'js/katalon/selenium-ide/iedoc-core.xml',
+        url: 'js/lib/selenium-ide/iedoc-core.xml',
         success: function (document) {
             Command.apiDocuments = new Array(document);
         },
@@ -340,7 +342,7 @@ function saveAsFileOfTestCase(fileName, content) {
 $(function() {
     $("#export").click(function() {
 
-        _gaq.push(['_trackEvent', 'app', 'export']);
+       // _gaq.push(['_trackEvent', 'app', 'export']);
 
         browser.runtime.sendMessage({
             getExternalCapabilities: true
@@ -420,7 +422,7 @@ $(function() {
     });
     dialog.dialog({
         close: function() {
-            _gaq.push(['_trackEvent', 'app', 'export-' + $("#select-script-language-id").val()]);
+            //_gaq.push(['_trackEvent', 'app', 'export-' + $("#select-script-language-id").val()]);
         }
     });
 });
@@ -445,104 +447,104 @@ function loadScripts() {
     switch (language) {
         case 'cs-wd-nunit':
             scriptNames = [
-                'js/katalon/selenium-ide/formatCommandOnlyAdapter.js',
-                'js/katalon/selenium-ide/remoteControl.js',
-                "js/katalon/selenium-ide/format/csharp/cs-rc.js",
-                'js/katalon/selenium-ide/webdriver.js',
-                "js/katalon/selenium-ide/format/csharp/cs-wd.js"
+                'js/lib/selenium-ide/formatCommandOnlyAdapter.js',
+                'js/lib/selenium-ide/remoteControl.js',
+                "js/lib/selenium-ide/format/csharp/cs-rc.js",
+                'js/lib/selenium-ide/webdriver.js',
+                "js/lib/selenium-ide/format/csharp/cs-wd.js"
             ];
             break;
         case 'cs-wd-mstest':
             scriptNames = [
-                'js/katalon/selenium-ide/formatCommandOnlyAdapter.js',
-                'js/katalon/selenium-ide/remoteControl.js',
-                "js/katalon/selenium-ide/format/csharp/cs-rc.js",
-                'js/katalon/selenium-ide/webdriver.js',
-                "js/katalon/selenium-ide/format/csharp/cs-wd.js",
-                "js/katalon/selenium-ide/format/csharp/cs-mstest-wd.js"
+                'js/lib/selenium-ide/formatCommandOnlyAdapter.js',
+                'js/lib/selenium-ide/remoteControl.js',
+                "js/lib/selenium-ide/format/csharp/cs-rc.js",
+                'js/lib/selenium-ide/webdriver.js',
+                "js/lib/selenium-ide/format/csharp/cs-wd.js",
+                "js/lib/selenium-ide/format/csharp/cs-mstest-wd.js"
             ];
             break;
         case 'katalon':
             scriptNames = [
-                'js/katalon/selenium-ide/formatCommandOnlyAdapter.js',
-                'js/katalon/selenium-ide/remoteControl.js',
-                "js/katalon/selenium-ide/format/java/java-rc.js",
-                "js/katalon/selenium-ide/format/java/java-rc-junit4.js",
-                "js/katalon/selenium-ide/format/java/java-rc-testng.js",
-                "js/katalon/selenium-ide/format/java/java-backed-junit4.js",
-                "js/katalon/selenium-ide/format/katalon/katalon.js"
+                'js/lib/selenium-ide/formatCommandOnlyAdapter.js',
+                'js/lib/selenium-ide/remoteControl.js',
+                "js/lib/selenium-ide/format/java/java-rc.js",
+                "js/lib/selenium-ide/format/java/java-rc-junit4.js",
+                "js/lib/selenium-ide/format/java/java-rc-testng.js",
+                "js/lib/selenium-ide/format/java/java-backed-junit4.js",
+                "js/lib/selenium-ide/format/lib/katalon.js"
             ];
             break;
         case 'java-wd-testng':
             scriptNames = [
-                'js/katalon/selenium-ide/formatCommandOnlyAdapter.js',
-                'js/katalon/selenium-ide/remoteControl.js',
-                "js/katalon/selenium-ide/format/java/java-rc.js",
-                "js/katalon/selenium-ide/format/java/java-rc-junit4.js",
-                "js/katalon/selenium-ide/format/java/java-rc-testng.js",
-                'js/katalon/selenium-ide/webdriver.js',
-                "js/katalon/selenium-ide/format/java/webdriver-testng.js"
+                'js/lib/selenium-ide/formatCommandOnlyAdapter.js',
+                'js/lib/selenium-ide/remoteControl.js',
+                "js/lib/selenium-ide/format/java/java-rc.js",
+                "js/lib/selenium-ide/format/java/java-rc-junit4.js",
+                "js/lib/selenium-ide/format/java/java-rc-testng.js",
+                'js/lib/selenium-ide/webdriver.js',
+                "js/lib/selenium-ide/format/java/webdriver-testng.js"
             ];
             break;
         case 'java-wd-junit':
             scriptNames = [
-                'js/katalon/selenium-ide/formatCommandOnlyAdapter.js',
-                'js/katalon/selenium-ide/remoteControl.js',
-                "js/katalon/selenium-ide/format/java/java-rc.js",
-                "js/katalon/selenium-ide/format/java/java-rc-junit4.js",
-                "js/katalon/selenium-ide/format/java/java-rc-testng.js",
-                'js/katalon/selenium-ide/webdriver.js',
-                "js/katalon/selenium-ide/format/java/webdriver-junit4.js"
+                'js/lib/selenium-ide/formatCommandOnlyAdapter.js',
+                'js/lib/selenium-ide/remoteControl.js',
+                "js/lib/selenium-ide/format/java/java-rc.js",
+                "js/lib/selenium-ide/format/java/java-rc-junit4.js",
+                "js/lib/selenium-ide/format/java/java-rc-testng.js",
+                'js/lib/selenium-ide/webdriver.js',
+                "js/lib/selenium-ide/format/java/webdriver-junit4.js"
             ];
             break;
         case 'java-rc-junit':
             scriptNames = [
-                'js/katalon/selenium-ide/formatCommandOnlyAdapter.js',
-                'js/katalon/selenium-ide/remoteControl.js',
-                "js/katalon/selenium-ide/format/java/java-rc.js",
-                "js/katalon/selenium-ide/format/java/java-rc-junit4.js",
-                "js/katalon/selenium-ide/format/java/java-rc-testng.js",
-                "js/katalon/selenium-ide/format/java/java-backed-junit4.js"
+                'js/lib/selenium-ide/formatCommandOnlyAdapter.js',
+                'js/lib/selenium-ide/remoteControl.js',
+                "js/lib/selenium-ide/format/java/java-rc.js",
+                "js/lib/selenium-ide/format/java/java-rc-junit4.js",
+                "js/lib/selenium-ide/format/java/java-rc-testng.js",
+                "js/lib/selenium-ide/format/java/java-backed-junit4.js"
             ];
             break;
         case 'python-appdynamics':
             scriptNames = [
-                'js/katalon/selenium-ide/formatCommandOnlyAdapter.js',
-                'js/katalon/selenium-ide/remoteControl.js',
-                "js/katalon/selenium-ide/format/python/python2-rc.js",
-                'js/katalon/selenium-ide/webdriver.js',
-                "js/katalon/selenium-ide/format/python/python-appdynamics.js"
+                'js/lib/selenium-ide/formatCommandOnlyAdapter.js',
+                'js/lib/selenium-ide/remoteControl.js',
+                "js/lib/selenium-ide/format/python/python2-rc.js",
+                'js/lib/selenium-ide/webdriver.js',
+                "js/lib/selenium-ide/format/python/python-appdynamics.js"
             ];
             break;
         case 'python2-wd-unittest':
             scriptNames = [
-                'js/katalon/selenium-ide/formatCommandOnlyAdapter.js',
-                'js/katalon/selenium-ide/remoteControl.js',
-                "js/katalon/selenium-ide/format/python/python2-rc.js",
-                'js/katalon/selenium-ide/webdriver.js',
-                "js/katalon/selenium-ide/format/python/python2-wd.js"
+                'js/lib/selenium-ide/formatCommandOnlyAdapter.js',
+                'js/lib/selenium-ide/remoteControl.js',
+                "js/lib/selenium-ide/format/python/python2-rc.js",
+                'js/lib/selenium-ide/webdriver.js',
+                "js/lib/selenium-ide/format/python/python2-wd.js"
             ];
             break;
         case 'robot':
             scriptNames = [
-                'js/katalon/selenium-ide/formatCommandOnlyAdapter.js',
-                'js/katalon/selenium-ide/format/robot/robot.js'
+                'js/lib/selenium-ide/formatCommandOnlyAdapter.js',
+                'js/lib/selenium-ide/format/robot/robot.js'
             ];
             break;
         case 'ruby-wd-rspec':
             scriptNames = [
-                'js/katalon/selenium-ide/formatCommandOnlyAdapter.js',
-                'js/katalon/selenium-ide/remoteControl.js',
-                "js/katalon/selenium-ide/format/ruby/ruby-rc.js",
-                "js/katalon/selenium-ide/format/ruby/ruby-rc-rspec.js",
-                'js/katalon/selenium-ide/webdriver.js',
-                "js/katalon/selenium-ide/format/ruby/ruby-wd-rspec.js"
+                'js/lib/selenium-ide/formatCommandOnlyAdapter.js',
+                'js/lib/selenium-ide/remoteControl.js',
+                "js/lib/selenium-ide/format/ruby/ruby-rc.js",
+                "js/lib/selenium-ide/format/ruby/ruby-rc-rspec.js",
+                'js/lib/selenium-ide/webdriver.js',
+                "js/lib/selenium-ide/format/ruby/ruby-wd-rspec.js"
             ];
             break;
         case 'xml':
             scriptNames = [
-                'js/katalon/selenium-ide/formatCommandOnlyAdapter.js',
-                'js/katalon/selenium-ide/format/xml/XML-formatter.js'
+                'js/lib/selenium-ide/formatCommandOnlyAdapter.js',
+                'js/lib/selenium-ide/format/xml/XML-formatter.js'
             ];
             break;
         default:
@@ -847,9 +849,9 @@ $(function() {
     $('#selectElementButton').attr('title', "Select a target element for the current command");
     $('#showElementButton').attr('title', "Find and highlight the current target element of the current command");
     $('#speed').attr('title', "Adjust play speed");
-    $('#new').attr('title', "Create new test case. See samples at https://github.com/katalon-studio/katalon-recorder-samples.");
+    $('#new').attr('title', "Create new test case.");
     $('#export').attr('title', "Export the current test case to script in C#, Java, Ruby, Python, (Katalon Studio) Groovy, or Robot Framework");
-    $('#suite-open').attr('title', "Open test suites. See samples at https://github.com/katalon-studio/katalon-recorder-samples.");
+    $('#suite-open').attr('title', "Open test suites.");
     $('#suite-plus').attr('title', "Create new test suite");
 })
 // KAT-END
@@ -1070,7 +1072,7 @@ $(function() {
         buttons: {
             Upload: function() {
 
-                _gaq.push(['_trackEvent', 'app', 'upload_ka']);
+                //_gaq.push(['_trackEvent', 'app', 'upload_ka']);
 
                 $(this).dialog('close');
 

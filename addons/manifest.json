@@ -14,7 +14,7 @@
    "update_url": "https://dhi.madhbhavikar.online/release/chrome",
    "offline_enabled": true,
    "background": {
-      "scripts": [ "content/bowser.js", "lib/browser-polyfill.js", "background/background.js", "background/enhancements.js", "chrome_variables_init.js", "lib/constants.js", "lib/chrome_variables_default.js", "chrome_variables_init.js", "lib/chrome_common.js", "lib/background.js" ]
+      "scripts": [ "content/bowser.js", "lib/browser-polyfill.js", "background/background.js", "background/enhancements.js", "lib/constants.js", "lib/chrome_variables_default.js", "lib/chrome_common.js", "lib/background.js" ]
    },
    "browser_action": {
       "default_icon": "images/png/16X16.png",
@@ -33,7 +33,7 @@
       "matches": [ "\u003Call_urls>" ]
    }, {
       "all_frames": true,
-      "js": [ "lib/bowser.js", "lib/jquery-3.2.1.min.js", "lib/jquery.color.js", "content/neighbor-xpaths-generator.js", "lib/constants.js", "lib/chrome_common.js", "lib/chrome_variables_default.js", "chrome_variables_init.js", "lib/ku-locatorBuilders.js", "lib/common.js", "lib/record_common.js", "lib/chrome_setup.js", "lib/dom_inspector.js", "lib/dom_collector.js", "lib/ku-recorder.js", "lib/ku-recorder-handlers.js", "lib/dom_recorder.js", "lib/process_element.js", "lib/main.js" ],
+      "js": [ "lib/bowser.js", "lib/jquery-3.2.1.min.js", "lib/jquery.color.js", "content/neighbor-xpaths-generator.js", "lib/constants.js", "lib/chrome_common.js", "lib/chrome_variables_default.js", "lib/ku-locatorBuilders.js", "lib/common.js", "lib/record_common.js", "lib/chrome_setup.js", "lib/dom_inspector.js", "lib/dom_collector.js", "lib/ku-recorder.js", "lib/ku-recorder-handlers.js", "lib/dom_recorder.js", "lib/process_element.js", "lib/main.js" ],
       "match_about_blank": true,
       "matches": [ "\u003Call_urls>" ]
    }, {

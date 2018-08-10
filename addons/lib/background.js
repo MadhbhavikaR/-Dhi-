@@ -1,3 +1,4 @@
+/*
 var CONNECTING_ERROR_MESSAGE = "Cannot connect to Katalon Server. Make sure you have started Object Spy on Katalon application."
 
 var registeredRequest = false;
@@ -342,8 +343,9 @@ chrome.runtime.onStartup.addListener(function () {
     // waitForConnection();
 });
 
-/*
+/!*
 chrome.runtime.onInstalled.addListener(function (details) {
     waitForConnection();
 });
+*!/
 */

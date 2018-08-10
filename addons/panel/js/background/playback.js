@@ -129,7 +129,7 @@ window.onload = function() {
 
     recordButton.addEventListener("click", function(){
 
-        _gaq.push(['_trackEvent', 'app', 'record']);
+        //_gaq.push(['_trackEvent', 'app', 'record']);
 
         isRecording = !isRecording;
         if (isRecording) {
@@ -364,7 +364,7 @@ function cleanCommandToolBar() {
 
 function play() {
 
-    _gaq.push(['_trackEvent', 'app', 'play']);
+    //_gaq.push(['_trackEvent', 'app', 'play']);
 
     addSampleDataToScreenshot();
     initializePlayingProgress()
