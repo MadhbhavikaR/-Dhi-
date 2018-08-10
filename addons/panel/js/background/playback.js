@@ -1178,6 +1178,9 @@ function doCommand() {
             {
                 return extCommand.sendCommand(commandName, commandTarget, commandValue, true);
             }
+            if(commandName === "captureEntirePageScreenshot"){
+                return extCommand.sendCommand(commandName, commandTarget, commandValue);
+            }
             return extCommand.sendCommand(commandName, commandTarget, commandValue);
         })
         .then(function(result) {

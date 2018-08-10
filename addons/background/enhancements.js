@@ -3,9 +3,6 @@ var _gaq = _gaq || [];
 _gaq.push(['_setAccount', 'UA-81802338-9']);
 _gaq.push(['_trackPageview']);
 
-var windowHeight = 743;
-var windowWidth = 793;
-
 (function() {
   var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
   ga.src = 'https://ssl.google-analytics.com/ga.js';
@@ -32,19 +29,25 @@ chrome.runtime.setUninstallURL('https://dhi.madhbhavikar.online');
 
 function getWindowSize(callback) {
     chrome.storage.local.get('window', function(result) {
+        let height = 750;
+        let width = 750;
         if (result) {
             try {
                 result = result.window;
                 if (result.height) {
-                    windowHeight = result.height;
+                    if(result.height > 750){
+                        height = result.height;
+                    }
                 }
                 if (result.width) {
-                    windowWidth = result.width;
+                    if(result.width > 750){
+                        width = result.width;
+                    }
                 }
             } catch (e) {
             }
         }
-        callback(windowHeight, windowWidth);
+        callback(height, width);
     });
 }
 
@@ -180,6 +183,9 @@ function doSendSpecialKeys(request, sendResponse, debuggeeId, frameId) {
 browser.runtime.onMessage.addListener(function(request, sender, sendResponse, type) {
     if (request.captureEntirePageScreenshot) {
         var windowId = request.captureWindowId || sender.tab.windowId;
+        // sender.tab.height;
+        // sender.tab.width;
+
         browser.tabs.captureVisibleTab(windowId, { format: 'png' }).then(function(image) {
             sendResponse({
                 image: image

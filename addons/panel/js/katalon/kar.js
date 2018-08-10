@@ -845,7 +845,7 @@ $(function() {
     $('#grid-copy-btn').attr('title', "Copy the current test steps");
     $('#grid-paste-btn').attr('title', "Paste the copied test steps as the next step of the current one");
     $('#selectElementButton').attr('title', "Select a target element for the current command");
-    $('#showElementButton').attr('title', "Find and highlight the curent target element of the current command");
+    $('#showElementButton').attr('title', "Find and highlight the current target element of the current command");
     $('#speed').attr('title', "Adjust play speed");
     $('#new').attr('title', "Create new test case. See samples at https://github.com/katalon-studio/katalon-recorder-samples.");
     $('#export').attr('title', "Export the current test case to script in C#, Java, Ruby, Python, (Katalon Studio) Groovy, or Robot Framework");
